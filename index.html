@@ -9,7 +9,7 @@
     <div class="container-fullwidth sticky-top">
       <nav class="navbar navbar-expand-lg bg-light px-auto">
         <div class="container">
-          <a class="navbar-brand" href="#" id="logo">BM</a>
+          <a class="navbar-brand" href="#home" id="logo">BM</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -28,9 +28,9 @@
             <div class="navbar-nav">
               <a class="nav-link" href="#home">HOME</a>
               <a class="nav-link" href="#about">ABOUT ME</a>
-              <a class="nav-link" href="#">TECHNOLOGIES</a>
-              <a class="nav-link" href="#">MY WORK</a>
-              <a class="nav-link" href="#">CONTACT ME</a>
+              <a class="nav-link" href="#technologies">TECHNOLOGIES</a>
+              <a class="nav-link" href="#my-work">MY WORK</a>
+              <a class="nav-link" href="#contact">CONTACT ME</a>
             </div>
           </div>
         </div>
@@ -62,15 +62,19 @@
         </div>
       </div>
       <div class="row about mt-5 text-center" id="about">
-        <h2 class="primary-header mb-5">About Me</h2>
-        <div class="col-12 col-lg-6 image-div order-2 order-lg-1 about-img">
+        <h2 class="primary-header my-5">About Me</h2>
+        <div
+          class="col-12 col-lg-6 image-div order-2 order-lg-1 about-img about-in"
+        >
           <img
             src="./assets/images/my-second-profile-pic.jpg"
             alt="A picture of me sitting"
             srcset=""
           />
         </div>
-        <div class="col-12 col-lg-6 home order-1 order-lg-2 introduction">
+        <div
+          class="col-12 col-lg-6 home order-1 order-lg-2 introduction about-in"
+        >
           <h2 class="secondary-header">Please allow me to introduce myself</h2>
           <p class="about-text">
             Hello there! I'm Bruno Milošević, an aspiring web developer with a
@@ -89,8 +93,205 @@
           </p>
         </div>
       </div>
+      <div class="row technologies text-center" id="technologies">
+        <h2 class="primary-header my-5">Technologies</h2>
+        <div class="col-12">
+          <img src="./assets/images/html-icon.png" alt="HTML icon" />
+          <div class="progress my-3">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 100%"
+              aria-label="Basic example"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              100%
+            </div>
+          </div>
+          <img src="./assets/images/js-icon.png" alt="JavaScript icon" />
+          <div class="progress my-3">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-label="Basic example"
+              style="width: 80%"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              80%
+            </div>
+          </div>
+          <img src="./assets/images/bootstrap-icon.png" alt="Bootstrap icon" />
+          <div class="progress my-3">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-label="Basic example"
+              style="width: 80%"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              80%
+            </div>
+          </div>
+          <img src="./assets/images/css-icon.png" alt="CSS icon" />
+          <div class="progress my-3">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-label="Basic example"
+              style="width: 90%"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              90%
+            </div>
+          </div>
+          <img src="./assets/images/sass-icon.png" alt="Sass icon" />
+          <div class="progress my-3">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-label="Basic example"
+              style="width: 90%"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <img src="./assets/images/sql-icon.png" alt="SQL icon" />
+          <div class="progress my-3">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-label="Basic example"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50%
+            </div>
+          </div>
+          <img src="./assets/images/figma-icon.png" alt="Figma icon" />
+          <div class="progress my-3">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-label="Basic example"
+              style="width: 70%"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              70%
+            </div>
+          </div>
+          <img src="./assets/images/webflow-icon.png" alt="Webflow icon" />
+          <div class="progress my-3">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-label="Basic example"
+              style="width: 70%"
+              aria-valuenow="70"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              70%
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row technologies text-center" id="my-work">
+        <h2 class="primary-header my-5">My Work</h2>
+        <div class="col-12 col-md-4 portfolio-div">
+          <a
+            href="https://loquacious-cuchufli-299094.netlify.app/"
+            target="_blank"
+            ><img
+              class="portfolio-img"
+              src="./assets/images/advice-generator-app.PNG"
+              alt="advice generator app thumbnail"
+          /></a>
+          <h3 class="my-3">Advice Generator App</h3>
+        </div>
+        <div class="col-12 col-md-4 portfolio-div">
+          <a href="https://poetic-parfait-e07414.netlify.app/" target="_blank"
+            ><img
+              class="portfolio-img"
+              src="./assets/images/ecommerce-frontend-design.PNG"
+              alt="E commerce design thumbnail"
+          /></a>
+          <h3 class="my-3">E-Commerce design</h3>
+        </div>
+        <div class="col-12 col-md-4 portfolio-div">
+          <a
+            href="https://melodious-granita-704e73.netlify.app/"
+            target="_blank"
+            ><img
+              class="portfolio-img"
+              src="./assets/images/ip-tracker-app.PNG"
+              alt="IP tracker app thumbnail"
+          /></a>
+          <h3 class="my-3">Ip Tracker App</h3>
+        </div>
+        <div class="col-12 col-md-4 portfolio-div">
+          <a href="https://comfy-rabanadas-3221ec.netlify.app/" target="_blank"
+            ><img
+              class="portfolio-img"
+              src="./assets/images/password-generator-app.PNG"
+              alt="Random Password Generator thumbnail"
+          /></a>
+          <h3 class="my-3">Random Password Generator</h3>
+        </div>
+        <div class="col-12 col-md-4 portfolio-div">
+          <a
+            href="https://effortless-cactus-029955.netlify.app/"
+            target="_blank"
+            ><img
+              class="portfolio-img"
+              src="./assets/images/weather-app.PNG"
+              alt="Weather App Thumbnail "
+          /></a>
+          <h3 class="my-3">Weather App</h3>
+        </div>
+        <div class="col-12 col-md-4 portfolio-div">
+          <a href="https://venerable-douhua-ee4c5b.netlify.app" target="_blank"
+            ><img
+              class="portfolio-img"
+              src="./assets/images/scoreboard-app.PNG"
+              alt="Scoreboard app thumbnail"
+          /></a>
+          <h3 class="my-3">Scoreboard App</h3>
+        </div>
+      </div>
+      <div class="row form text-center" id="contact">
+        <h2 class="primary-header my-5">Contact Me</h2>
+        <form action="">
+          <div class="form-group text-center">
+            <label for="e-mail-addres my-3">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="e-mail-addrest"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="query-text my-3">Feel free to ask anything</label>
+            <textarea class="form-control" id="query-text" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn mb-2 my-3">SUBMIT</button>
+        </form>
+      </div>
     </div>
-    <script src="https://unpkg.com/scrollreveal"></script>
+
     <script src="index.js" type="module" defer></script>
   </body>
 </html>
