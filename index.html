@@ -38,7 +38,9 @@
     </div>
     <div class="container mt-5">
       <div class="row home" id="home">
-        <div class="col-12 col-lg-6 home order-2 order-lg-1">
+        <div
+          class="col-12 text-center text-lg-start col-lg-6 home order-2 order-lg-1"
+        >
           <h1 class="home-header">
             Hello, <br />
             My name is <span class="color-text-header">BRUNO MILOŠEVIĆ</span>
@@ -68,15 +70,15 @@
         >
           <img
             src="./assets/images/my-second-profile-pic.jpg"
-            alt="A picture of me sitting"
+            alt="A picture of me "
             srcset=""
           />
         </div>
-        <div
-          class="col-12 col-lg-6 home order-1 order-lg-2 introduction about-in"
-        >
-          <h2 class="secondary-header">Please allow me to introduce myself</h2>
-          <p class="about-text">
+        <div class="col-12 col-lg-6 home order-2 introduction about-in">
+          <h2 class="secondary-header py-3 py-lg-0">
+            Please allow me to introduce myself
+          </h2>
+          <p class="about-text text-center text-md-start">
             Hello there! I'm Bruno Milošević, an aspiring web developer with a
             passion for crafting digital experiences. As I navigate the exciting
             world of web development, I invite you to join me on this journey
@@ -208,7 +210,7 @@
           </div>
         </div>
       </div>
-      <div class="row technologies text-center" id="my-work">
+      <div class="row work text-center" id="my-work">
         <h2 class="primary-header my-5">My Work</h2>
         <div class="col-12 col-md-4 portfolio-div">
           <a
@@ -273,7 +275,7 @@
       </div>
       <div class="row form text-center" id="contact">
         <h2 class="primary-header my-5">Contact Me</h2>
-        <form action="">
+        <form action="./thankyou.html" target="_blank">
           <div class="form-group text-center">
             <label for="e-mail-addres my-3">Email address</label>
             <input
@@ -291,7 +293,48 @@
         </form>
       </div>
     </div>
+    <footer
+      class="text-center text-white mt-5"
+      style="background-color: #f1f1f1"
+    >
+      <div class="container pt-4">
+        <section class="mb-4">
+          <a
+            href="https://www.facebook.com/profile.php?id=100009493869564&locale=hr_HR"
+            target="_blank"
+            ><img
+              src="./assets/images/facebook-icon.png"
+              alt="facebook footer logo"
+          /></a>
 
+          <a
+            href="https://www.linkedin.com/in/bruno-m-8a974b101/"
+            target="_blank"
+            ><img
+              src="./assets/images/linkedin-icon.png"
+              alt="LinkedIn footer logo"
+          /></a>
+
+          <a href="https://www.instagram.com/milosevicbruno/" target="_blank"
+            ><img
+              src="./assets/images/instagram-icon.png"
+              alt="Instagram footer logo"
+          /></a>
+
+          <a href="https://github.com/BrunoMilosevic" target="_blank">
+            <img
+              src="./assets/images/github-icon.png"
+              alt="GitHub footer logo"
+            />
+          </a>
+        </section>
+      </div>
+
+      <div class="text-center text-dark p-3" style="background-color: #f1f1f1">
+        © 2023 Copyright:
+        <a class="text-dark" href="./index.html">Bruno Milošević</a>
+      </div>
+    </footer>
     <script src="index.js" type="module" defer></script>
   </body>
 </html>
